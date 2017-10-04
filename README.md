@@ -44,13 +44,14 @@ To add a dependency on messenger4j using Maven, use the following:
   <groupId>br.com.digidev</groupId>
   <artifactId>messenger4j</artifactId>
   <version>0.1.0</version>
+  <type>pom</type>
 </dependency>
 ```
 To add a dependency using Gradle:
 
 ```
 dependencies {
-  compile 'br.com.digidev:messenger4j:0.1.0'
+  compile 'br.com.digidev:messenger4j:0.1.0@pom'
 }
 ```
 
