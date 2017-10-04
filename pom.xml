@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns:Xlint="http://www.w3.org/2001/XMLSchema"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Xlint="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.digidev.messenger4j</groupId>
     <artifactId>messenger4j</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
@@ -40,7 +37,8 @@
         <connection>scm:git:git://github.com/digidevbr/messenger4j.git</connection>
         <developerConnection>scm:git:ssh://github.com/digidevbr/messenger4j.git</developerConnection>
         <url>https://github.com/digidevbr/messenger4j.git</url>
-    </scm>
+      <tag>0.0.1</tag>
+  </scm>
 
     <distributionManagement>
         <snapshotRepository>
@@ -68,8 +66,8 @@
                     <source>1.8</source>
                     <target>1.8</target>
                     <compilerArguments>
-                        <Werror/>
-                        <Xlint:all/>
+                        <Werror />
+                        <Xlint:all />
                     </compilerArguments>
                 </configuration>
             </plugin>
