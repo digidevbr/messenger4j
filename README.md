@@ -51,7 +51,7 @@ To add a dependency using Gradle:
 
 ```
 dependencies {
-  compile 'br.com.digidev:messenger4j:0.1.0@pom'
+  compile 'br.com.digidev.messenger4j:messenger4j:0.1.0'
 }
 ```
 
