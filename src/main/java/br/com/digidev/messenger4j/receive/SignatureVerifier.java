@@ -1,6 +1,6 @@
-package br.com.digidev.receive;
+package br.com.digidev.messenger4j.receive;
 
-import br.com.digidev.internal.PreConditions;
+import br.com.digidev.messenger4j.internal.PreConditions;
 
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;

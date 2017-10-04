@@ -1,4 +1,4 @@
-package br.com.digidev.send.buttons;
+package br.com.digidev.messenger4j.send.buttons;
 
 import java.util.ArrayList;
 import java.util.Collections;

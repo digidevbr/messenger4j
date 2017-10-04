@@ -1,4 +1,4 @@
-package br.com.digidev.setup;
+package br.com.digidev.messenger4j.setup;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 

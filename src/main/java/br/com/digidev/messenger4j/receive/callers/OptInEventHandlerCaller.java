@@ -1,9 +1,9 @@
-package br.com.digidev.receive.callers;
+package br.com.digidev.messenger4j.receive.callers;
 
-import br.com.digidev.internal.JsonHelper;
-import br.com.digidev.receive.handlers.EventHandler;
-import br.com.digidev.receive.handlers.FallbackEventHandler;
-import br.com.digidev.receive.events.OptInEvent;
+import br.com.digidev.messenger4j.internal.JsonHelper;
+import br.com.digidev.messenger4j.receive.events.OptInEvent;
+import br.com.digidev.messenger4j.receive.handlers.EventHandler;
+import br.com.digidev.messenger4j.receive.handlers.FallbackEventHandler;
 import com.google.gson.JsonObject;
 
 /**

@@ -1,4 +1,4 @@
-package br.com.digidev.internal;
+package br.com.digidev.messenger4j.internal;
 
 
 import com.google.gson.JsonArray;

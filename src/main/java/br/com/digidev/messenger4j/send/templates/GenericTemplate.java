@@ -1,7 +1,7 @@
-package br.com.digidev.send.templates;
+package br.com.digidev.messenger4j.send.templates;
 
-import br.com.digidev.internal.PreConditions;
-import br.com.digidev.send.buttons.Button;
+import br.com.digidev.messenger4j.internal.PreConditions;
+import br.com.digidev.messenger4j.send.buttons.Button;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,7 +1,7 @@
-package br.com.digidev.send;
+package br.com.digidev.messenger4j.send;
 
-import br.com.digidev.internal.PreConditions;
-import br.com.digidev.send.templates.Template;
+import br.com.digidev.messenger4j.internal.PreConditions;
+import br.com.digidev.messenger4j.send.templates.Template;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package br.com.digidev.receive.events;
+package br.com.digidev.messenger4j.receive.events;
 
 import java.util.Date;
 import java.util.Objects;

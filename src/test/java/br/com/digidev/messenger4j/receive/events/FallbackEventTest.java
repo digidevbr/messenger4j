@@ -1,4 +1,4 @@
-package br.com.digidev.receive.events;
+package br.com.digidev.messenger4j.receive.events;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;
@@ -7,11 +7,11 @@ import org.junit.Test;
  * @author Max Grabenhorst
  * @since 0.6.0
  */
-public class CommonTextMessageEventTest {
+public class FallbackEventTest {
 
     @Test
     public void shouldHaveACorrectEqualsImplementation() {
-        EqualsVerifier.forClass(CommonTextMessageEvent.class)
+        EqualsVerifier.forClass(FallbackEvent.class)
                 .usingGetClass()
                 .verify();
     }

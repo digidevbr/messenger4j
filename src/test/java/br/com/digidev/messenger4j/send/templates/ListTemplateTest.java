@@ -1,7 +1,7 @@
-package br.com.digidev.send.templates;
+package br.com.digidev.messenger4j.send.templates;
 
-import br.com.digidev.common.WebviewHeightRatio;
-import br.com.digidev.send.buttons.Button;
+import br.com.digidev.messenger4j.common.WebviewHeightRatio;
+import br.com.digidev.messenger4j.send.buttons.Button;
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;
 

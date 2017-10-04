@@ -1,4 +1,4 @@
-package br.com.digidev.send.buttons;
+package br.com.digidev.messenger4j.send.buttons;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;

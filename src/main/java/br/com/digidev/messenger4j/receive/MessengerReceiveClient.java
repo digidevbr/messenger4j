@@ -1,7 +1,7 @@
-package br.com.digidev.receive;
+package br.com.digidev.messenger4j.receive;
 
-import br.com.digidev.exceptions.MessengerVerificationException;
-import br.com.digidev.receive.handlers.EventHandler;
+import br.com.digidev.messenger4j.exceptions.MessengerVerificationException;
+import br.com.digidev.messenger4j.receive.handlers.EventHandler;
 
 /**
  * A {@code MessengerReceiveClient} is responsible for handling all callbacks from the Facebook

@@ -1,4 +1,4 @@
-package br.com.digidev.send.templates;
+package br.com.digidev.messenger4j.send.templates;
 
 import java.util.Objects;
 

@@ -1,9 +1,9 @@
-package br.com.digidev;
+package br.com.digidev.messenger4j;
 
-import br.com.digidev.send.MessengerSendClientBuilder;
-import br.com.digidev.setup.MessengerSetupClientBuilder;
-import br.com.digidev.user.UserProfileClientBuilder;
-import br.com.digidev.receive.MessengerReceiveClientBuilder;
+import br.com.digidev.messenger4j.receive.MessengerReceiveClientBuilder;
+import br.com.digidev.messenger4j.send.MessengerSendClientBuilder;
+import br.com.digidev.messenger4j.setup.MessengerSetupClientBuilder;
+import br.com.digidev.messenger4j.user.UserProfileClientBuilder;
 
 /**
  * This is the entry point for using the {@code Messenger Platform API}.

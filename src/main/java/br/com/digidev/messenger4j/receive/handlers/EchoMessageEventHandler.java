@@ -1,6 +1,6 @@
-package br.com.digidev.receive.handlers;
+package br.com.digidev.messenger4j.receive.handlers;
 
-import br.com.digidev.receive.events.EchoMessageEvent;
+import br.com.digidev.messenger4j.receive.events.EchoMessageEvent;
 
 /**
  * An implementation of this interface is intended to handle the {@link EchoMessageEvent}.

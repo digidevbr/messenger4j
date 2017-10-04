@@ -1,7 +1,7 @@
-package br.com.digidev.setup;
+package br.com.digidev.messenger4j.setup;
 
-import br.com.digidev.exceptions.MessengerApiException;
-import br.com.digidev.exceptions.MessengerIOException;
+import br.com.digidev.messenger4j.exceptions.MessengerApiException;
+import br.com.digidev.messenger4j.exceptions.MessengerIOException;
 
 import java.util.List;
 

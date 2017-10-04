@@ -1,4 +1,4 @@
-package br.com.digidev.send;
+package br.com.digidev.messenger4j.receive.events;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;
@@ -7,11 +7,11 @@ import org.junit.Test;
  * @author Max Grabenhorst
  * @since 0.6.0
  */
-public class TemplateAttachmentTest {
+public class CommonTextMessageEventTest {
 
     @Test
     public void shouldHaveACorrectEqualsImplementation() {
-        EqualsVerifier.forClass(TemplateAttachment.class)
+        EqualsVerifier.forClass(CommonTextMessageEvent.class)
                 .usingGetClass()
                 .verify();
     }

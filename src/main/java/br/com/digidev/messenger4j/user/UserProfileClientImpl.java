@@ -1,9 +1,9 @@
-package br.com.digidev.user;
+package br.com.digidev.messenger4j.user;
 
-import br.com.digidev.common.MessengerHttpClient;
-import br.com.digidev.exceptions.MessengerApiException;
-import br.com.digidev.exceptions.MessengerIOException;
-import br.com.digidev.common.MessengerRestClientAbstract;
+import br.com.digidev.messenger4j.common.MessengerHttpClient;
+import br.com.digidev.messenger4j.exceptions.MessengerApiException;
+import br.com.digidev.messenger4j.exceptions.MessengerIOException;
+import br.com.digidev.messenger4j.common.MessengerRestClientAbstract;
 import com.google.gson.JsonObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

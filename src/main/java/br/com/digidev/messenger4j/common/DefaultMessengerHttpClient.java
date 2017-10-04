@@ -1,4 +1,4 @@
-package br.com.digidev.common;
+package br.com.digidev.messenger4j.common;
 
 import java.io.IOException;
 import okhttp3.MediaType;

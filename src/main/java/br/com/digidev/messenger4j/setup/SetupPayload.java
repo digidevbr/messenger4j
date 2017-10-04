@@ -1,8 +1,8 @@
-package br.com.digidev.setup;
+package br.com.digidev.messenger4j.setup;
 
 import static java.util.Collections.singletonList;
 
-import br.com.digidev.internal.PreConditions;
+import br.com.digidev.messenger4j.internal.PreConditions;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;

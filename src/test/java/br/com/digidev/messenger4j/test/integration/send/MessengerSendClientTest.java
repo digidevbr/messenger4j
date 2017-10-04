@@ -1,6 +1,6 @@
-package br.com.digidev.test.integration.send;
+package br.com.digidev.messenger4j.test.integration.send;
 
-import static br.com.digidev.common.MessengerHttpClient.HttpMethod.POST;
+import static br.com.digidev.messenger4j.common.MessengerHttpClient.HttpMethod.POST;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
@@ -13,24 +13,25 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import br.com.digidev.common.WebviewHeightRatio;
-import br.com.digidev.MessengerPlatform;
-import br.com.digidev.common.MessengerHttpClient;
-import br.com.digidev.common.MessengerHttpClient.HttpMethod;
-import br.com.digidev.common.MessengerHttpClient.HttpResponse;
-import br.com.digidev.exceptions.MessengerApiException;
-import br.com.digidev.send.BinaryAttachment;
-import br.com.digidev.send.MessengerResponse;
-import br.com.digidev.send.MessengerSendClient;
-import br.com.digidev.send.NotificationType;
-import br.com.digidev.send.QuickReply;
-import br.com.digidev.send.Recipient;
-import br.com.digidev.send.SenderAction;
-import br.com.digidev.send.buttons.Button;
-import br.com.digidev.send.templates.ButtonTemplate;
-import br.com.digidev.send.templates.GenericTemplate;
-import br.com.digidev.send.templates.ListTemplate;
-import br.com.digidev.send.templates.ReceiptTemplate;
+import br.com.digidev.messenger4j.common.WebviewHeightRatio;
+import br.com.digidev.messenger4j.MessengerPlatform;
+import br.com.digidev.messenger4j.common.MessengerHttpClient;
+import br.com.digidev.messenger4j.common.MessengerHttpClient.HttpMethod;
+import br.com.digidev.messenger4j.common.MessengerHttpClient.HttpResponse;
+import br.com.digidev.messenger4j.exceptions.MessengerApiException;
+import br.com.digidev.messenger4j.send.buttons.Button;
+import br.com.digidev.messenger4j.send.templates.ButtonTemplate;
+import br.com.digidev.messenger4j.send.templates.GenericTemplate;
+import br.com.digidev.messenger4j.send.templates.ListTemplate;
+import br.com.digidev.messenger4j.send.templates.ReceiptTemplate;
+import br.com.digidev.messenger4j.send.BinaryAttachment;
+import br.com.digidev.messenger4j.send.MessengerResponse;
+import br.com.digidev.messenger4j.send.MessengerSendClient;
+import br.com.digidev.messenger4j.send.NotificationType;
+import br.com.digidev.messenger4j.send.QuickReply;
+import br.com.digidev.messenger4j.send.Recipient;
+import br.com.digidev.messenger4j.send.SenderAction;
+
 import java.util.List;
 
 import org.junit.Before;

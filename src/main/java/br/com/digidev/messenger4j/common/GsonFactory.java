@@ -1,4 +1,4 @@
-package br.com.digidev.common;
+package br.com.digidev.messenger4j.common;
 
 import static com.google.gson.FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES;
 

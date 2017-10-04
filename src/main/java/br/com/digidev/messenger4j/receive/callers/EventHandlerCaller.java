@@ -1,9 +1,9 @@
-package br.com.digidev.receive.callers;
+package br.com.digidev.messenger4j.receive.callers;
 
-import br.com.digidev.receive.events.Event;
-import br.com.digidev.receive.events.FallbackEvent;
-import br.com.digidev.receive.handlers.EventHandler;
-import br.com.digidev.receive.handlers.FallbackEventHandler;
+import br.com.digidev.messenger4j.receive.events.Event;
+import br.com.digidev.messenger4j.receive.events.FallbackEvent;
+import br.com.digidev.messenger4j.receive.handlers.EventHandler;
+import br.com.digidev.messenger4j.receive.handlers.FallbackEventHandler;
 import com.google.gson.JsonObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

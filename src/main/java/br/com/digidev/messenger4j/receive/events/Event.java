@@ -1,6 +1,6 @@
-package br.com.digidev.receive.events;
+package br.com.digidev.messenger4j.receive.events;
 
-import br.com.digidev.receive.handlers.EventHandler;
+import br.com.digidev.messenger4j.receive.handlers.EventHandler;
 
 import java.util.Objects;
 

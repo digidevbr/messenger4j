@@ -1,6 +1,6 @@
-package br.com.digidev.setup;
+package br.com.digidev.messenger4j.setup;
 
-import br.com.digidev.internal.JsonHelper;
+import br.com.digidev.messenger4j.internal.JsonHelper;
 import com.google.gson.JsonObject;
 
 import java.util.Objects;

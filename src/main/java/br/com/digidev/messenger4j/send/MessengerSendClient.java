@@ -1,8 +1,8 @@
-package br.com.digidev.send;
+package br.com.digidev.messenger4j.send;
 
-import br.com.digidev.exceptions.MessengerApiException;
-import br.com.digidev.exceptions.MessengerIOException;
-import br.com.digidev.send.templates.Template;
+import br.com.digidev.messenger4j.exceptions.MessengerApiException;
+import br.com.digidev.messenger4j.exceptions.MessengerIOException;
+import br.com.digidev.messenger4j.send.templates.Template;
 
 import java.util.List;
 

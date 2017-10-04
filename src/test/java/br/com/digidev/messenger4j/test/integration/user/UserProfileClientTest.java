@@ -1,6 +1,6 @@
-package br.com.digidev.test.integration.user;
+package br.com.digidev.messenger4j.test.integration.user;
 
-import static br.com.digidev.common.MessengerHttpClient.HttpMethod.GET;
+import static br.com.digidev.messenger4j.common.MessengerHttpClient.HttpMethod.GET;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
@@ -13,12 +13,12 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import br.com.digidev.exceptions.MessengerApiException;
-import br.com.digidev.user.UserProfile;
-import br.com.digidev.MessengerPlatform;
-import br.com.digidev.common.MessengerHttpClient;
-import br.com.digidev.common.MessengerHttpClient.HttpResponse;
-import br.com.digidev.user.UserProfileClient;
+import br.com.digidev.messenger4j.exceptions.MessengerApiException;
+import br.com.digidev.messenger4j.user.UserProfile;
+import br.com.digidev.messenger4j.user.UserProfileClient;
+import br.com.digidev.messenger4j.MessengerPlatform;
+import br.com.digidev.messenger4j.common.MessengerHttpClient;
+import br.com.digidev.messenger4j.common.MessengerHttpClient.HttpResponse;
 import org.junit.Before;
 import org.junit.Test;
 

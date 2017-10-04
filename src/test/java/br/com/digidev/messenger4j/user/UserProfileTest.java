@@ -1,4 +1,4 @@
-package br.com.digidev.user;
+package br.com.digidev.messenger4j.user;
 
 import nl.jqno.equalsverifier.EqualsVerifier;
 import org.junit.Test;

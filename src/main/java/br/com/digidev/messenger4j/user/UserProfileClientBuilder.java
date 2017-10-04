@@ -1,7 +1,7 @@
-package br.com.digidev.user;
+package br.com.digidev.messenger4j.user;
 
-import br.com.digidev.common.MessengerHttpClient;
-import br.com.digidev.internal.PreConditions;
+import br.com.digidev.messenger4j.common.MessengerHttpClient;
+import br.com.digidev.messenger4j.internal.PreConditions;
 
 /**
  * @author Max Grabenhorst

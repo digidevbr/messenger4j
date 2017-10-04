@@ -1,28 +1,28 @@
-package br.com.digidev.receive;
+package br.com.digidev.messenger4j.receive;
 
-import br.com.digidev.MessengerPlatform;
-import br.com.digidev.internal.PreConditions;
-import br.com.digidev.receive.events.AccountLinkingEvent;
-import br.com.digidev.receive.events.AttachmentMessageEvent;
-import br.com.digidev.receive.events.EchoMessageEvent;
-import br.com.digidev.receive.events.FallbackEvent;
-import br.com.digidev.receive.events.MessageDeliveredEvent;
-import br.com.digidev.receive.events.MessageReadEvent;
-import br.com.digidev.receive.events.OptInEvent;
-import br.com.digidev.receive.events.PostbackEvent;
-import br.com.digidev.receive.events.QuickReplyMessageEvent;
-import br.com.digidev.receive.events.TextMessageEvent;
-import br.com.digidev.receive.handlers.AccountLinkingEventHandler;
-import br.com.digidev.receive.handlers.AttachmentMessageEventHandler;
-import br.com.digidev.receive.handlers.EchoMessageEventHandler;
-import br.com.digidev.receive.handlers.EventHandler;
-import br.com.digidev.receive.handlers.FallbackEventHandler;
-import br.com.digidev.receive.handlers.MessageDeliveredEventHandler;
-import br.com.digidev.receive.handlers.MessageReadEventHandler;
-import br.com.digidev.receive.handlers.OptInEventHandler;
-import br.com.digidev.receive.handlers.PostbackEventHandler;
-import br.com.digidev.receive.handlers.QuickReplyMessageEventHandler;
-import br.com.digidev.receive.handlers.TextMessageEventHandler;
+import br.com.digidev.messenger4j.MessengerPlatform;
+import br.com.digidev.messenger4j.internal.PreConditions;
+import br.com.digidev.messenger4j.receive.handlers.AccountLinkingEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.AttachmentMessageEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.EventHandler;
+import br.com.digidev.messenger4j.receive.handlers.TextMessageEventHandler;
+import br.com.digidev.messenger4j.receive.events.AccountLinkingEvent;
+import br.com.digidev.messenger4j.receive.events.AttachmentMessageEvent;
+import br.com.digidev.messenger4j.receive.events.EchoMessageEvent;
+import br.com.digidev.messenger4j.receive.events.FallbackEvent;
+import br.com.digidev.messenger4j.receive.events.MessageDeliveredEvent;
+import br.com.digidev.messenger4j.receive.events.MessageReadEvent;
+import br.com.digidev.messenger4j.receive.events.OptInEvent;
+import br.com.digidev.messenger4j.receive.events.PostbackEvent;
+import br.com.digidev.messenger4j.receive.events.QuickReplyMessageEvent;
+import br.com.digidev.messenger4j.receive.events.TextMessageEvent;
+import br.com.digidev.messenger4j.receive.handlers.EchoMessageEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.FallbackEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.MessageDeliveredEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.MessageReadEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.OptInEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.PostbackEventHandler;
+import br.com.digidev.messenger4j.receive.handlers.QuickReplyMessageEventHandler;
 
 /**
  * The {@code MessengerReceiveClientBuilder} is used to build instances of {@link MessengerReceiveClient} from

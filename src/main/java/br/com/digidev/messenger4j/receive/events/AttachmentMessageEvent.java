@@ -1,6 +1,6 @@
-package br.com.digidev.receive.events;
+package br.com.digidev.messenger4j.receive.events;
 
-import br.com.digidev.internal.JsonHelper;
+import br.com.digidev.messenger4j.internal.JsonHelper;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

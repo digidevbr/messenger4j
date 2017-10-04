@@ -1,4 +1,4 @@
-package br.com.digidev.exceptions;
+package br.com.digidev.messenger4j.exceptions;
 
 /**
  * Thrown to indicate that a verification failed.

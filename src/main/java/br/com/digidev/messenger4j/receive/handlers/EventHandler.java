@@ -1,8 +1,8 @@
-package br.com.digidev.receive.handlers;
+package br.com.digidev.messenger4j.receive.handlers;
 
-import br.com.digidev.receive.MessengerReceiveClient;
-import br.com.digidev.receive.MessengerReceiveClientBuilder;
-import br.com.digidev.receive.events.Event;
+import br.com.digidev.messenger4j.receive.MessengerReceiveClient;
+import br.com.digidev.messenger4j.receive.MessengerReceiveClientBuilder;
+import br.com.digidev.messenger4j.receive.events.Event;
 
 /**
  * This <b>internal</b> interface is the base interface for event-specific {@code EventHandler} interfaces.

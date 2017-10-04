@@ -1,7 +1,7 @@
-package br.com.digidev.test.integration.setup;
+package br.com.digidev.messenger4j.test.integration.setup;
 
-import static br.com.digidev.common.MessengerHttpClient.HttpMethod.DELETE;
-import static br.com.digidev.common.MessengerHttpClient.HttpMethod.POST;
+import static br.com.digidev.messenger4j.common.MessengerHttpClient.HttpMethod.DELETE;
+import static br.com.digidev.messenger4j.common.MessengerHttpClient.HttpMethod.POST;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
@@ -14,16 +14,17 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import br.com.digidev.MessengerPlatform;
-import br.com.digidev.common.WebviewHeightRatio;
-import br.com.digidev.exceptions.MessengerApiException;
-import br.com.digidev.setup.CallToActionType;
-import br.com.digidev.common.MessengerHttpClient;
-import br.com.digidev.common.MessengerHttpClient.HttpMethod;
-import br.com.digidev.common.MessengerHttpClient.HttpResponse;
-import br.com.digidev.setup.CallToAction;
-import br.com.digidev.setup.MessengerSetupClient;
-import br.com.digidev.setup.SetupResponse;
+import br.com.digidev.messenger4j.MessengerPlatform;
+import br.com.digidev.messenger4j.common.WebviewHeightRatio;
+import br.com.digidev.messenger4j.exceptions.MessengerApiException;
+import br.com.digidev.messenger4j.setup.CallToAction;
+import br.com.digidev.messenger4j.setup.CallToActionType;
+import br.com.digidev.messenger4j.setup.MessengerSetupClient;
+import br.com.digidev.messenger4j.setup.SetupResponse;
+import br.com.digidev.messenger4j.common.MessengerHttpClient;
+import br.com.digidev.messenger4j.common.MessengerHttpClient.HttpMethod;
+import br.com.digidev.messenger4j.common.MessengerHttpClient.HttpResponse;
+
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;

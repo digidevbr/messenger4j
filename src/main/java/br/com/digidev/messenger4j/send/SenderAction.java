@@ -1,4 +1,4 @@
-package br.com.digidev.send;
+package br.com.digidev.messenger4j.send;
 
 /**
  * @author Max Grabenhorst
