@@ -154,7 +154,7 @@ public final class AttachmentMessageEvent extends MessageEvent {
      * @see Attachment
      */
     public enum AttachmentType {
-        IMAGE, AUDIO, VIDEO, FILE, LOCATION;
+        IMAGE, AUDIO, VIDEO, FILE, LOCATION, FALLBACK;
     }
 
     /**
