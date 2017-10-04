@@ -40,9 +40,9 @@ To add a dependency on messenger4j using Maven, use the following:
 
 ```xml
 <dependency>
-  <groupId>com.github.messenger4j</groupId>
+  <groupId>br.com.digidev</groupId>
   <artifactId>messenger4j</artifactId>
-  <version>0.8.0</version>
+  <version>0.1.0</version>
 </dependency>
 ```
 
@@ -50,13 +50,9 @@ To add a dependency using Gradle:
 
 ```
 dependencies {
-  compile 'com.github.messenger4j:messenger4j:0.8.0'
+  compile 'br.com.digidev:messenger4j:0.1.0'
 }
 ```
-
-## Showcase
-For a complete sample application showcasing many features of the Messenger Platform take a look at the
-[messenger4j-spring-boot-quickstart-template][2]. You can use it to quickly bootstrap your chatbot projects.
 
 ## Examples
 > For almost all supported features you can take a look at the integration tests (`src/test/java/.../test/integration`) for a working example.
@@ -237,4 +233,3 @@ This project is licensed under the terms of the [MIT license](LICENSE).
 
 
 [1]: https://developers.facebook.com/docs/messenger-platform
-[2]: https://github.com/messenger4j/messenger4j-spring-boot-quickstart-template
