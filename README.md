@@ -1,3 +1,5 @@
+<a href='https://bintray.com/digidevbr/messenger4j/messenger4j?source=watch' alt='Get automatic notifications about new "messenger4j" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
+
 # messenger4j: A Java library for the Messenger Platform
 
 If you are excited about building Chatbots on the Facebook Messenger Platform, messenger4j is all you need ✌

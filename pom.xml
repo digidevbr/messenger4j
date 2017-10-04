@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Xlint="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>br.com.digidev.messenger4j</groupId>
+    <groupId>br.com.digidev</groupId>
     <artifactId>messenger4j</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
@@ -10,12 +10,6 @@
     <name>${project.groupId}:${project.artifactId}</name>
     <description>The ultimate Java library for building Chatbots on the Facebook Messenger Platform</description>
     <url>https://github.com/digidevbr/messenger4j</url>
-
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
 
     <licenses>
         <license>
@@ -40,21 +34,18 @@
       <tag>0.0.1</tag>
   </scm>
 
-    <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
-        <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-digidevbr-messenger4j</id>
+            <name>digidevbr-messenger4j</name>
+            <url>https://api.bintray.com/maven/digidevbr/messenger4j/messenger4j/;publish=1</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
@@ -69,14 +60,6 @@
                         <Werror />
                         <Xlint:all />
                     </compilerArguments>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
-                <configuration>
-                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
