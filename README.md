@@ -35,6 +35,7 @@ For more information on the Facebook Messenger Platform refer to the [official d
     + okHttp (optional)
 * 150 kB JAR
 
+
 ## Binaries
 To add a dependency on messenger4j using Maven, use the following:
 
@@ -45,12 +46,37 @@ To add a dependency on messenger4j using Maven, use the following:
   <version>0.1.0</version>
 </dependency>
 ```
-
 To add a dependency using Gradle:
 
 ```
 dependencies {
   compile 'br.com.digidev:messenger4j:0.1.0'
+}
+```
+
+##Repositories
+
+Note: 
+We are putting the dependencies in the maven central, however, until then it is necessary to include the repositories in your application or settings in maven.
+
+Add repository in pom or settings.xml
+```xml
+    <repositories>
+        <repository>
+            <id>digidev</id>
+            <name>digidev - repository</name>
+            <url>https://dl.bintray.com/digidevbr/messenger4j/</url>
+        </repository>
+    </repositories>
+```    
+
+Add Repository in gradle
+
+``` 
+repositories {
+    digidev {
+        url "https://dl.bintray.com/digidevbr/messenger4j"
+    }
 }
 ```
 
