@@ -14,8 +14,7 @@ import com.google.gson.JsonObject;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class MessengerApiException extends Exception {
 

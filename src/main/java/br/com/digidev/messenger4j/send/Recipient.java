@@ -5,8 +5,7 @@ import br.com.digidev.messenger4j.internal.PreConditions;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class Recipient {
 
@@ -58,8 +57,7 @@ public final class Recipient {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Builder {
 
@@ -76,8 +74,7 @@ public final class Recipient {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class RecipientIdBuilder {
         private final String recipientId;
@@ -93,8 +90,7 @@ public final class Recipient {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class PhoneNumberBuilder {
         private final String phoneNumber;

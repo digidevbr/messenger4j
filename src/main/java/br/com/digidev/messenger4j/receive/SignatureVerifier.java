@@ -11,8 +11,7 @@ import javax.crypto.spec.SecretKeySpec;
  * The {@code SignatureVerifier} is used to verify the provided signature of the payload in order to ensure
  * the integrity and origin of the payload.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 final class SignatureVerifier {
 

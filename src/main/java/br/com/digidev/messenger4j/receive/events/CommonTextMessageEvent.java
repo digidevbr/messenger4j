@@ -6,8 +6,7 @@ import java.util.Objects;
 /**
  * This <b>internal</b> abstract class is a base implementation for message events containing a {@code text}.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  */
 abstract class CommonTextMessageEvent extends MessageEvent {

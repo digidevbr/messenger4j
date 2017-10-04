@@ -5,8 +5,7 @@ import br.com.digidev.messenger4j.send.templates.Template;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 final class TemplateAttachment extends Message.Attachment {
 
@@ -45,8 +44,7 @@ final class TemplateAttachment extends Message.Attachment {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     private enum Type {
         TEMPLATE

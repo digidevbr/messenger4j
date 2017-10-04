@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class ButtonTemplate extends Template {
 
@@ -57,8 +56,7 @@ public final class ButtonTemplate extends Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Builder {
 

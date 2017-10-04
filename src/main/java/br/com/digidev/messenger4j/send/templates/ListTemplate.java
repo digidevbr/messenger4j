@@ -11,7 +11,6 @@ import java.util.Objects;
 
 /**
  * @author Jan Zarnikov
- * @since 0.7.0
  */
 public final class ListTemplate extends Template {
 
@@ -60,9 +59,6 @@ public final class ListTemplate extends Template {
                 '}';
     }
 
-    /**
-     * @since 0.7.0
-     */
     public static final class Builder {
 
         private static final int BUTTONS_LIMIT = 1;
@@ -100,9 +96,6 @@ public final class ListTemplate extends Template {
         }
     }
 
-    /**
-     * @since 0.7.0
-     */
     public static final class Element {
 
         private final String title;
@@ -147,9 +140,6 @@ public final class ListTemplate extends Template {
                     '}';
         }
 
-        /**
-         * @since 0.7.0
-         */
         public static final class ListBuilder {
 
             private final List<Element> elements;
@@ -178,9 +168,6 @@ public final class ListTemplate extends Template {
             }
         }
 
-        /**
-         * @since 0.7.0
-         */
         public static final class Builder {
 
             private static final int BUTTONS_LIMIT = 1;
@@ -236,9 +223,6 @@ public final class ListTemplate extends Template {
 
         }
 
-        /**
-         * @since 0.7.0
-         */
         public static final class DefaultAction {
 
             private final Button.ButtonType type;
@@ -283,9 +267,6 @@ public final class ListTemplate extends Template {
                         '}';
             }
 
-            /**
-             * @since 0.7.0
-             */
             public static final class Builder {
                 private final String url;
                 private WebviewHeightRatio webviewHeightRatio;

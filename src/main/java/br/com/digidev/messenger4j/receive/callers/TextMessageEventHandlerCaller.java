@@ -9,12 +9,11 @@ import com.google.gson.JsonObject;
 /**
  * <b>Internal</b> {@link EventHandlerCaller} responsible for the {@link TextMessageEvent}.
  *
- * @author Max Grabenhorst
+ * @author Messenger4J - http://github.com/messenger4j
  * @see EventHandlerCaller
  * @see EventHandler
  * @see FallbackEventHandler
  * @see TextMessageEvent
- * @since 0.6.0
  */
 public final class TextMessageEventHandlerCaller extends EventHandlerCaller<TextMessageEvent> {
 

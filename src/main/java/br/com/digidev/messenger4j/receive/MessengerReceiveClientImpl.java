@@ -28,8 +28,7 @@ import org.slf4j.LoggerFactory;
  * This is the standard implementation of the {@link MessengerReceiveClient} interface used by
  * the {@link MessengerReceiveClientBuilder}.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see MessengerReceiveClient
  */
 final class MessengerReceiveClientImpl implements MessengerReceiveClient {

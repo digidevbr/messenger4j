@@ -21,8 +21,7 @@ import java.util.Objects;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  * @see Attachment
  */
@@ -87,8 +86,7 @@ public final class AttachmentMessageEvent extends MessageEvent {
     /**
      * An attachment contained within a message.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      * @see AttachmentType
      * @see Payload
      */
@@ -152,8 +150,7 @@ public final class AttachmentMessageEvent extends MessageEvent {
     /**
      * The possible attachment types.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      * @see Attachment
      */
     public enum AttachmentType {
@@ -164,8 +161,7 @@ public final class AttachmentMessageEvent extends MessageEvent {
      * This is the base implementation of the different {@link Payload} types providing the functionality to check
      * the type of the concrete implementation and to return the concrete type.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      * @see Attachment
      */
     public abstract static class Payload {
@@ -199,9 +195,8 @@ public final class AttachmentMessageEvent extends MessageEvent {
     /**
      * {@link Payload} implementation that is used when the {@link Payload} of the {@link Attachment} is not supported.
      *
-     * @author Max Grabenhorst
+     * @author Messenger4J - http://github.com/messenger4j
      * @see Attachment
-     * @since 0.6.0
      */
     public static final class UnsupportedPayload extends Payload {
 
@@ -232,8 +227,7 @@ public final class AttachmentMessageEvent extends MessageEvent {
      * {@link Payload} implementation that is used when the {@link Payload} of the {@link Attachment} is a binary attachment.
      * E.g. an image, file, audio or video attachment.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      * @see Attachment
      */
     public static final class BinaryPayload extends Payload {
@@ -287,8 +281,7 @@ public final class AttachmentMessageEvent extends MessageEvent {
     /**
      * {@link Payload} implementation that is used when the {@link Payload} of the {@link Attachment} is a location.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      * @see Attachment
      * @see Coordinates
      */
@@ -344,9 +337,8 @@ public final class AttachmentMessageEvent extends MessageEvent {
     /**
      * Representing the location of a user.
      *
-     * @author Max Grabenhorst
+     * @author Messenger4J - http://github.com/messenger4j
      * @see LocationPayload
-     * @since 0.6.0
      */
     public static final class Coordinates {
 

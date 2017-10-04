@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 final class Message {
 
@@ -67,8 +66,7 @@ final class Message {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     abstract static class Attachment {
 
@@ -79,8 +77,7 @@ final class Message {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     static final class Builder {
 

@@ -15,8 +15,7 @@ import java.util.Objects;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  */
 public final class MessageReadEvent extends TimestampedEvent {

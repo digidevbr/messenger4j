@@ -3,14 +3,12 @@ package br.com.digidev.messenger4j.common;
 import java.io.IOException;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public interface MessengerHttpClient {
 
     /**
      * @author Andriy Koretskyy
-     * @since 0.8.0
      */
     enum HttpMethod {
         GET,
@@ -19,13 +17,11 @@ public interface MessengerHttpClient {
     }
 
     /**
-     * @since 0.8.0
      */
     HttpResponse execute(HttpMethod httpMethod, String url, String jsonBody) throws IOException;
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     final class HttpResponse {
 

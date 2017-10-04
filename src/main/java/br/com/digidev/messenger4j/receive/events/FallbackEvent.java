@@ -8,8 +8,7 @@ import com.google.gson.JsonObject;
  * This event will occur when either the actual event is not supported by this library or the specific
  * {@link EventHandler} for the actual event (when supported) is not registered.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  */
 public final class FallbackEvent extends Event {

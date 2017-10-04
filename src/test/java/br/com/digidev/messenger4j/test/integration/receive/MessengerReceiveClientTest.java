@@ -42,8 +42,7 @@ import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public class MessengerReceiveClientTest {
 

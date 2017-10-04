@@ -1,8 +1,8 @@
 package br.com.digidev.messenger4j.send;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
+
  */
 public enum SenderAction {
 

@@ -4,8 +4,7 @@ import br.com.digidev.messenger4j.exceptions.MessengerApiException;
 import br.com.digidev.messenger4j.exceptions.MessengerIOException;
 
 /**
- * @author Max Grabenhorst
- * @since 0.8.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public interface UserProfileClient {
 

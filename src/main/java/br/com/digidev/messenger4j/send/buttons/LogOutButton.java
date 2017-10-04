@@ -1,7 +1,7 @@
 package br.com.digidev.messenger4j.send.buttons;
 
 /**
- * @author Max Grabenhorst
+ * @author Messenger4J - http://github.com/messenger4j
  * @since 0.7.0
  */
 public final class LogOutButton extends Button {
@@ -36,7 +36,7 @@ public final class LogOutButton extends Button {
     }
 
     /**
-     * @author Max Grabenhorst
+     * @author Messenger4J - http://github.com/messenger4j
      * @since 0.7.0
      */
     public static final class Builder {

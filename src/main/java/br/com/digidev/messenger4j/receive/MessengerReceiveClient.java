@@ -19,8 +19,7 @@ import br.com.digidev.messenger4j.receive.handlers.EventHandler;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see MessengerReceiveClientBuilder
  */
 public interface MessengerReceiveClient {

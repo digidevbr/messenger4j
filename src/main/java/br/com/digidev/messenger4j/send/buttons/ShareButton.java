@@ -1,8 +1,7 @@
 package br.com.digidev.messenger4j.send.buttons;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class ShareButton extends Button {
 
@@ -36,8 +35,7 @@ public final class ShareButton extends Button {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Builder {
 

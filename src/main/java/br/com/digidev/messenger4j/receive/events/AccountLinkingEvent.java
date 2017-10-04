@@ -16,8 +16,7 @@ import java.util.Objects;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  * @see AccountLinkingStatus
  */
@@ -89,8 +88,7 @@ public final class AccountLinkingEvent extends TimestampedEvent {
      *
      * An account can be {@code linked} or {@code unlinked}.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum AccountLinkingStatus {
         LINKED, UNLINKED

@@ -3,8 +3,7 @@ package br.com.digidev.messenger4j.send.templates;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public abstract class Template {
 
@@ -39,8 +38,7 @@ public abstract class Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum TemplateType {
 

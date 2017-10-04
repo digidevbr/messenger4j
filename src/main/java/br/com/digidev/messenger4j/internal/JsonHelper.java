@@ -9,8 +9,7 @@ import java.util.Date;
 /**
  * <b>Internal</b> helper class used to support processing of JSON structures.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class JsonHelper {
 
@@ -80,8 +79,7 @@ public final class JsonHelper {
     /**
      * Constants for property keys of the Messenger Platform JSON formats.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum Constants {
 

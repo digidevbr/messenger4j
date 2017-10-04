@@ -34,8 +34,7 @@ import br.com.digidev.messenger4j.receive.handlers.QuickReplyMessageEventHandler
  * For each event that should be handled by your application you can provide the specific {@link EventHandler}.
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see MessengerReceiveClient
  * @see MessengerPlatform
  */

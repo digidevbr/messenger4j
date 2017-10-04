@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public abstract class Button {
 
@@ -94,8 +93,7 @@ public abstract class Button {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum ButtonType {
         WEB_URL,
@@ -107,8 +105,7 @@ public abstract class Button {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class ListBuilder {
 
@@ -139,16 +136,10 @@ public abstract class Button {
             return new ShareButton.Builder(this);
         }
 
-        /**
-         * @since 0.7.0
-         */
         public LogInButton.Builder addLogInButton(String url) {
             return new LogInButton.Builder(url, this);
         }
 
-        /**
-         * @since 0.7.0
-         */
         public LogOutButton.Builder addLogOutButton() {
             return new LogOutButton.Builder(this);
         }

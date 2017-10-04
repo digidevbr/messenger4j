@@ -17,10 +17,9 @@ import br.com.digidev.messenger4j.user.UserProfileClientBuilder;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
+ * @author Messenger4J - http://github.com/messenger4j
  * @see MessengerReceiveClientBuilder
  * @see MessengerSendClientBuilder
- * @since 0.6.0
  */
 public final class MessengerPlatform {
 
@@ -77,7 +76,6 @@ public final class MessengerPlatform {
     /**
      * @param pageAccessToken the generated {@code Page Access Token} of your {@code Facebook Page}
      * @return a {@code MessengerSetupClientBuilder}
-     * @since 0.8.0
      */
     public static MessengerSetupClientBuilder newSetupClientBuilder(String pageAccessToken) {
         return new MessengerSetupClientBuilder(pageAccessToken);
@@ -86,7 +84,6 @@ public final class MessengerPlatform {
     /**
      * @param pageAccessToken the generated {@code Page Access Token} of your {@code Facebook Page}
      * @return a {@code UserProfileClientBuilder}
-     * @since 0.8.0
      */
     public static UserProfileClientBuilder newUserProfileClientBuilder(String pageAccessToken) {
         return new UserProfileClientBuilder(pageAccessToken);

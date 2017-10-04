@@ -7,8 +7,7 @@ import br.com.digidev.messenger4j.send.templates.Template;
 import java.util.List;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public interface MessengerSendClient {
 

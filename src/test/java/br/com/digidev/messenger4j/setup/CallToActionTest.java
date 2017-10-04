@@ -3,8 +3,7 @@ package br.com.digidev.messenger4j.setup;
 import nl.jqno.equalsverifier.EqualsVerifier;
 
 /**
- * @author Max Grabenhorst
- * @since 0.8.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public class CallToActionTest {
 

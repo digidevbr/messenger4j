@@ -5,7 +5,6 @@ import br.com.digidev.messenger4j.internal.PreConditions;
 
 /**
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 public final class MessengerSetupClientBuilder {
 

@@ -6,8 +6,7 @@ import com.google.gson.JsonObject;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class MessengerResponse {
 

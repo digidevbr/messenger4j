@@ -10,7 +10,6 @@ import java.util.List;
 
 /**
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 final class SetupPayload {
 

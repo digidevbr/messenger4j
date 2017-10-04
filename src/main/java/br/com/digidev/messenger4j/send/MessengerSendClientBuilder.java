@@ -4,8 +4,7 @@ import br.com.digidev.messenger4j.internal.PreConditions;
 import br.com.digidev.messenger4j.common.MessengerHttpClient;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class MessengerSendClientBuilder {
 

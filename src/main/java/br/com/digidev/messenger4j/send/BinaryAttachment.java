@@ -4,8 +4,7 @@ import br.com.digidev.messenger4j.internal.PreConditions;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class BinaryAttachment extends Message.Attachment {
 
@@ -57,8 +56,7 @@ public final class BinaryAttachment extends Message.Attachment {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum Type {
         IMAGE,
@@ -68,8 +66,7 @@ public final class BinaryAttachment extends Message.Attachment {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Payload {
 
@@ -127,8 +124,7 @@ public final class BinaryAttachment extends Message.Attachment {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Builder {
 
@@ -149,8 +145,7 @@ public final class BinaryAttachment extends Message.Attachment {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class UrlBuilder {
 
@@ -175,8 +170,7 @@ public final class BinaryAttachment extends Message.Attachment {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class AttachmentIdBuilder {
 

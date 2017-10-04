@@ -15,8 +15,7 @@ import java.util.Objects;
  * </a>
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  */
 public final class QuickReplyMessageEvent extends CommonTextMessageEvent {
@@ -77,8 +76,7 @@ public final class QuickReplyMessageEvent extends CommonTextMessageEvent {
     /**
      * Custom data that is provided when the user taps on a {@code Quick Reply} button.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class QuickReply {
 

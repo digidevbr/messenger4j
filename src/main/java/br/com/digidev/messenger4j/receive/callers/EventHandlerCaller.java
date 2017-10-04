@@ -20,11 +20,10 @@ import org.slf4j.LoggerFactory;
  * </p>
  *
  * @param <E> the {@link Event} for which the {@code EventHandlerCaller} is responsible
- * @author Max Grabenhorst
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  * @see EventHandler
  * @see FallbackEventHandler
- * @since 0.6.0
  */
 public abstract class EventHandlerCaller<E extends Event> {
 

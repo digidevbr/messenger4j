@@ -35,7 +35,6 @@ import org.junit.Test;
 
 /**
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 public class MessengerSetupClientTest {
 

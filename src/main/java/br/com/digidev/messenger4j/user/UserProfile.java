@@ -5,8 +5,7 @@ import com.google.gson.JsonObject;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.8.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class UserProfile {
 
@@ -96,8 +95,7 @@ public final class UserProfile {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.8.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum Gender {
         MALE, FEMALE

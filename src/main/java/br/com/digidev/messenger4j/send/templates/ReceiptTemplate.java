@@ -8,8 +8,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class ReceiptTemplate extends Template {
 
@@ -131,8 +130,8 @@ public final class ReceiptTemplate extends Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
+    
      */
     public static final class Builder {
         private final String recipientName;
@@ -214,8 +213,8 @@ public final class ReceiptTemplate extends Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
+    
      */
     public static final class Summary {
 
@@ -274,8 +273,8 @@ public final class ReceiptTemplate extends Template {
         }
 
         /**
-         * @author Max Grabenhorst
-         * @since 0.6.0
+         * @author Messenger4J - http://github.com/messenger4j
+        
          */
         public static final class Builder {
             private final Float totalCost;
@@ -311,8 +310,8 @@ public final class ReceiptTemplate extends Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
+    
      */
     public static final class Element {
 
@@ -387,8 +386,7 @@ public final class ReceiptTemplate extends Template {
         }
 
         /**
-         * @author Max Grabenhorst
-         * @since 0.6.0
+         * @author Messenger4J - http://github.com/messenger4j
          */
         public static final class ListBuilder {
 
@@ -418,8 +416,7 @@ public final class ReceiptTemplate extends Template {
         }
 
         /**
-         * @author Max Grabenhorst
-         * @since 0.6.0
+         * @author Messenger4J - http://github.com/messenger4j
          */
         public static final class Builder {
             private final String title;
@@ -463,8 +460,7 @@ public final class ReceiptTemplate extends Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class ShippingAddress {
 
@@ -541,8 +537,7 @@ public final class ReceiptTemplate extends Template {
         }
 
         /**
-         * @author Max Grabenhorst
-         * @since 0.6.0
+         * @author Messenger4J - http://github.com/messenger4j
          */
         public static final class Builder {
             private final String street1;
@@ -576,8 +571,7 @@ public final class ReceiptTemplate extends Template {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Adjustment {
 
@@ -620,8 +614,7 @@ public final class ReceiptTemplate extends Template {
         }
 
         /**
-         * @author Max Grabenhorst
-         * @since 0.6.0
+         * @author Messenger4J - http://github.com/messenger4j
          */
         public static final class ListBuilder {
 
@@ -648,8 +641,7 @@ public final class ReceiptTemplate extends Template {
         }
 
         /**
-         * @author Max Grabenhorst
-         * @since 0.6.0
+         * @author Messenger4J - http://github.com/messenger4j
          */
         public static final class Builder {
             private String name;

@@ -7,7 +7,6 @@ import java.util.Objects;
 
 /**
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 public final class SetupResponse {
 

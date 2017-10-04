@@ -12,8 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 final class MessengerSendClientImpl extends MessengerRestClientAbstract<MessagingPayload, MessengerResponse>
         implements MessengerSendClient {

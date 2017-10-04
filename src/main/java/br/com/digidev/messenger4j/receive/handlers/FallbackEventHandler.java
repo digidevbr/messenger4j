@@ -10,10 +10,10 @@ import br.com.digidev.messenger4j.receive.events.FallbackEvent;
  * is not supported by this library or when the specific {@link EventHandler} for the actual event is not registered.
  * </p>
  *
- * @author Max Grabenhorst
+ * @author Messenger4J - http://github.com/messenger4j
  * @see EventHandler
  * @see FallbackEvent
- * @since 0.6.0
+
  */
 public interface FallbackEventHandler extends EventHandler<FallbackEvent> {
 }

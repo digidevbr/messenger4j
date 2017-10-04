@@ -8,9 +8,8 @@ import com.google.gson.JsonParser;
 import java.io.IOException;
 
 /**
- * @author Max Grabenhorst
+ * @author Messenger4J - http://github.com/messenger4j
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 public abstract class MessengerRestClientAbstract<P, R> {
 

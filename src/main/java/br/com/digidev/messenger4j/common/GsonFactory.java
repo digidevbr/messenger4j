@@ -23,7 +23,6 @@ import java.util.Map;
 
 /**
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 final class GsonFactory {
 
@@ -39,8 +38,7 @@ final class GsonFactory {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.8.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     private static final class FloatSerializer implements JsonSerializer<Float> {
         @Override
@@ -54,8 +52,7 @@ final class GsonFactory {
 
     /**
      * @author Andriy Koretskyy
-     * @author Max Grabenhorst
-     * @since 0.8.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     private static final class LowercaseEnumTypeAdapterFactory implements TypeAdapterFactory {
         @Override

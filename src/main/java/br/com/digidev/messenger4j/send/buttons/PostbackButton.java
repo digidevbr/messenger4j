@@ -5,8 +5,7 @@ import br.com.digidev.messenger4j.internal.PreConditions;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class PostbackButton extends TitleButton {
 
@@ -53,8 +52,7 @@ public final class PostbackButton extends TitleButton {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Builder {
 

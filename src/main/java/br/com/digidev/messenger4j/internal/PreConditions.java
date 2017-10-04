@@ -6,8 +6,7 @@ import java.util.Collection;
 /**
  * <b>Internal</b> helper class for checking constraints and preconditions.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class PreConditions {
 

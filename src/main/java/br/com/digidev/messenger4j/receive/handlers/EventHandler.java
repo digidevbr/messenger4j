@@ -20,8 +20,7 @@ import br.com.digidev.messenger4j.receive.events.Event;
  *
  * @param <E> the {@link Event} that is handled by the {@code EventHandler}
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see Event
  * @see MessengerReceiveClientBuilder
  */

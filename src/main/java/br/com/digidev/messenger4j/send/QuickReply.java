@@ -7,8 +7,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class QuickReply {
 
@@ -78,8 +77,7 @@ public final class QuickReply {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public enum ContentType {
         TEXT,
@@ -87,8 +85,7 @@ public final class QuickReply {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class ListBuilder {
 
@@ -117,8 +114,7 @@ public final class QuickReply {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class TextBuilder {
 
@@ -156,8 +152,7 @@ public final class QuickReply {
     }
 
     /**
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class LocationBuilder {
 

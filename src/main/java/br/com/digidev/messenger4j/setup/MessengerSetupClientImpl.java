@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @author Andriy Koretskyy
- * @since 0.8.0
  */
 final class MessengerSetupClientImpl extends MessengerRestClientAbstract<SetupPayload, SetupResponse>
         implements MessengerSetupClient {

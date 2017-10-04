@@ -16,8 +16,7 @@ import java.util.Objects;
  * Events are handled by their corresponding event-specific {@link EventHandler}.
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see EventHandler
  */
 public abstract class Event {
@@ -63,8 +62,7 @@ public abstract class Event {
     /**
      * An entity representing either a {@code Sender} or a {@code Recipient}.
      *
-     * @author Max Grabenhorst
-     * @since 0.6.0
+     * @author Messenger4J - http://github.com/messenger4j
      */
     public static final class Entity {
 

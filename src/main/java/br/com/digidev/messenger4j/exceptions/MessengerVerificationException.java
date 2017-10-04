@@ -7,8 +7,7 @@ package br.com.digidev.messenger4j.exceptions;
  * For example verification of the payload signature.
  * </p>
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  */
 public final class MessengerVerificationException extends Exception {
 

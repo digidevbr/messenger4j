@@ -5,8 +5,7 @@ import br.com.digidev.messenger4j.receive.events.MessageDeliveredEvent;
 /**
  * An implementation of this interface is intended to handle the {@link MessageDeliveredEvent}.
  *
- * @author Max Grabenhorst
- * @since 0.6.0
+ * @author Messenger4J - http://github.com/messenger4j
  * @see EventHandler
  * @see MessageDeliveredEvent
  */
