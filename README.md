@@ -6,6 +6,16 @@ If you are excited about building Chatbots on the Facebook Messenger Platform, m
 
 For more information on the Facebook Messenger Platform refer to the [official documentation][1].
 
+## Thanks original messenger4j
+
+This is a project-based API [Original Messenger 4j](https://github.com/messenger4j/messenger4j/.))
+
+I checked some problems and as the original API was not maintained and the last commit was old, I decided to make a fork and improve gradually.
+
+I included the same in [Sonarcloud](https://sonarcloud.io/dashboard?id=br.com.digidev.messenger4j%3Amessenger4j), github and [Travis CI](https://travis-ci.org/digidevbr/messenger4j) for build tracking.
+
+I will improve the documentation, and any problems, feel free to open a issue or perform a pull request.
+
 ## Build Status
 [![Build Status](https://travis-ci.org/digidevbr/messenger4j.svg?branch=master)](https://travis-ci.org/digidevbr/messenger4j)
 
