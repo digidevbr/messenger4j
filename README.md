@@ -20,10 +20,10 @@ For more information on the Facebook Messenger Platform refer to the [official d
 [![sonar-vulnerabilities][sonar-vulnerabilities]][sonar-url]
 
 [sonar-url]: https://sonarcloud.io/dashboard?id=br.com.digidev.messenger4j%3Amessenger4j
-[sonar-quality-gate]: https://sonarcloud.io/project/quality_gate?id=br.com.digidev.messenger4j%3Amessenger4j
-[sonar-coverage]: https://sonarcloud.io/component_measures?id=br.com.digidev.messenger4j%3Amessenger4j&metric=Coverage
-[sonar-bugs]: https://sonarcloud.io/component_measures?id=br.com.digidev.messenger4j%3Amessenger4j&metric=bugs
-[sonar-vulnerabilities]: https://sonarcloud.io/component_measures?id=br.com.digidev.messenger4j%3Amessenger4j&metric=vulnerabilities
+[sonar-quality-gate]: https://sonarcloud.io/api/badges/gate?key=br.com.digidev.messenger4j%3Amessenger4j
+[sonar-coverage]: https://sonarcloud.io/api/badges/measure?key=br.com.digidev.messenger4j%3Amessenger4j&metric=coverage
+[sonar-bugs]: https://sonarcloud.io/api/badges/measure?key=br.com.digidev.messenger4j%3Amessenger4j&metric=bugs
+[sonar-vulnerabilities]: https://sonarcloud.io/api/badges/measure?key=br.com.digidev.messenger4j%3Amessenger4j&metric=vulnerabilities
 
 ## Features
 * Full supported Receive API
