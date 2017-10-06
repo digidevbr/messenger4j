@@ -8,7 +8,7 @@ For more information on the Facebook Messenger Platform refer to the [official d
 
 ## Thanks original messenger4j
 
-This is a project-based API [Original Messenger 4j](https://github.com/messenger4j/messenger4j/.))
+This is a project-based API [Original Messenger 4j](https://github.com/messenger4j/messenger4j/)
 
 I checked some problems and as the original API was not maintained and the last commit was old, I decided to make a fork and improve gradually.
 
